@@ -1,0 +1,131 @@
+.header__search
+    input [type="text"]
+ .header__search
+    button[type="submit"]{
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+}
+.header__search input[type="text"]{
+    width: 250px;
+}
+.header__search
+     button[type="submit"] {
+     background-color: #1a73e8;
+     color: #fff;
+     cursor: pointer;
+    margin-left: 10px;}
+.header__search
+    button[type="submit"]:hover {
+    background-color: #1354c2;
+    }
+.header{
+    height:80px;
+    background: sienna;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-list li a {
+    display: block;
+    padding: 10px;
+    color: #444;
+    text-decoration: none;
+}
+.nav-list li+li {
+    margin-left: 20px;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.footer {
+    background-color: cadetblue;
+    padding: 40px 0;
+    font-size: 16px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-link li {
+    margin-right: 20px;
+}
+.footer-link a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+
+
+#main-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main-info div {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#main-info div img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#main-info div h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#main-info div p {
+    font-size: 16px;
+    margin: 0;
+}
